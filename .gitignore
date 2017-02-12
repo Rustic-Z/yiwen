@@ -1,0 +1,36 @@
+#maven build 
+*target/
+*classes/
+*.settings/
+*.classpath
+*lib/
+
+*bin/
+*.jar
+*.class
+*.iml
+*.ipr
+*.iws
+*~
+
+#Compiler file
+*.metadata/*
+*.DS_Store
+*.project
+*.less
+*.idea/
+*bin/
+*~
+
+#deploy tomcat /rebel.xml正则不好用
+*rebel.xml
+
+#  本地数据库
+# gulp + broswer-sync
+*node_modules/
+*node_modules/**
+
+*static/less/
+
+*package.json
+*gulpfile.js
